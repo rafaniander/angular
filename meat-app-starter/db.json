@@ -434,6 +434,46 @@
         }
       ],
       "id": 4
+    },
+    {
+      "name": "Rafael",
+      "email": "rafa@rafa.com",
+      "emailConfirmation": "rafa@rafa.com",
+      "address": "Rua Fernando",
+      "number": "105",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "greensandwich"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "name": "Niander",
+      "email": "niander@nini.com",
+      "emailConfirmation": "niander@niander.com",
+      "address": "Rua dos Tic Tac",
+      "number": "200",
+      "optionalAddress": "",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "burger"
+        },
+        {
+          "quantity": 1,
+          "menuId": "fries"
+        },
+        {
+          "quantity": 3,
+          "menuId": "coke.png"
+        }
+      ],
+      "id": 6
     }
   ]
 }
