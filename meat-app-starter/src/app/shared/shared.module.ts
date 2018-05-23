@@ -9,12 +9,14 @@ import { RatingComponent } from './rating/rating.component';
 import { OrderService } from './../order/order.service';
 import { RestaurantsService } from './../restaurants/restaurants.service';
 import { ShoppingCartService } from './../restaurant-detail/shopping-cart/shopping-cart.service';
+import { SnackbarComponent } from './messages/snackbar/snackbar.component';
 
 @NgModule({
   declarations: [
     InputComponent,
     RadioComponent,
-    RatingComponent
+    RatingComponent,
+    SnackbarComponent
   ],
   imports: [
     CommonModule,
@@ -25,6 +27,7 @@ import { ShoppingCartService } from './../restaurant-detail/shopping-cart/shoppi
     InputComponent,
     RadioComponent,
     RatingComponent,
+    SnackbarComponent,
     CommonModule,
     FormsModule,
     ReactiveFormsModule
