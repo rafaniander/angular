@@ -39,6 +39,6 @@ export class SharedModule {
         RestaurantsService,
         ShoppingCartService
       ]
-    }
+    };
   }
 }
