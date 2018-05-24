@@ -47,7 +47,7 @@
       "config": "./protractor.conf.js"
     }
   },
-    "lint": [
+  "lint": [
     {
       "project": "src/tsconfig.app.json"
     },

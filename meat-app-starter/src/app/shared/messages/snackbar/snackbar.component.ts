@@ -1,6 +1,7 @@
-import { NotificationService } from './../notification.service';
 import { Component, OnInit } from '@angular/core';
 import { trigger, state, style, transition, animate } from '@angular/animations';
+
+import { NotificationService } from './../notification.service';
 
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/observable/timer';
@@ -13,14 +14,8 @@ import 'rxjs/add/operator/switchMap';
   styleUrls: ['./snackbar.component.css'],
   animations: [
     trigger('snack-visibility', [
-      state('hidden', style({
-        opacity: 0,
-        botton: '0px'
-      })),
-      state('visible', style({
-        opacity: 1,
-        botton: '30px'
-      })),
+      state('hidden', style({ opacity: 0, botton: '0px' })),
+      state('visible', style({ opacity: 1, botton: '30px' })),
       transition('hidden => visible', animate('500ms 0s ease-in')),
       transition('visible => hidden', animate('500ms 0s ease-out'))
     ])
@@ -31,9 +26,7 @@ export class SnackbarComponent implements OnInit {
   message: string;
   snackVisibility = 'hidden';
 
-  constructor(
-    private notificationService: NotificationService
-  ) { }
+  constructor(private notificationService: NotificationService) { }
 
   ngOnInit() {
     this.notificationService.notifier
