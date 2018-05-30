@@ -370,71 +370,7 @@
       "restaurantId": "tasty-treats"
     }
   ],
-  "orders": [
-    {
-      "address": "Rua Fernando de Noronha",
-      "number": "105",
-      "optionalAddress": "Casa de Esquiba",
-      "paymentOption": "MON",
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "espreso"
-        },
-        {
-          "quantity": 1,
-          "menuId": "starb"
-        }
-      ],
-      "id": 1
-    },
-    {
-      "address": "Teste",
-      "number": "1",
-      "optionalAddress": "",
-      "paymentOption": "DEB",
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "zlasagna"
-        }
-      ],
-      "id": 2
-    },
-    {
-      "address": "Rua das Samambaias",
-      "number": "32",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "sunday"
-        }
-      ],
-      "id": 3
-    },
-    {
-      "address": "Rua Magda",
-      "number": "13",
-      "optionalAddress": "",
-      "paymentOption": "DEB",
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "coke.png"
-        },
-        {
-          "quantity": 1,
-          "menuId": "burger"
-        },
-        {
-          "quantity": 2,
-          "menuId": "fries"
-        }
-      ],
-      "id": 4
-    },
+  "orders": [    
     {
       "name": "Rafael",
       "email": "rafa@rafa.com",
@@ -449,7 +385,7 @@
           "menuId": "greensandwich"
         }
       ],
-      "id": 5
+      "id": 1
     },
     {
       "name": "Niander",
@@ -473,7 +409,27 @@
           "menuId": "coke.png"
         }
       ],
-      "id": 6
+      "id": 2
+    },
+    {
+      "name": "Juliana",
+      "email": "juliana@gmail.com",
+      "emailConfirmation": "juliana@gmail.com",
+      "address": "Rua Maceió",
+      "number": "123",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 1,
+          "menuId": "donut"
+        }
+      ],
+      "id": 3
     }
   ]
 }
