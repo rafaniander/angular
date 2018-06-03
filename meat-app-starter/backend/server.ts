@@ -36,3 +36,8 @@ https.createServer(options, server)
   .listen(port, () => {
     console.log(`JSON Server is running https://localhost:${port}`)
   })
+
+/**
+ * Inicializar o server
+ * nodemon --watch backend backend/dist/server.js
+ */
