@@ -370,7 +370,7 @@
       "restaurantId": "tasty-treats"
     }
   ],
-  "orders": [    
+  "orders": [
     {
       "name": "Rafael",
       "email": "rafa@rafa.com",
@@ -430,6 +430,22 @@
         }
       ],
       "id": 3
+    },
+    {
+      "name": "Naruto Uzumaki",
+      "email": "aldeia@folha.com",
+      "emailConfirmation": "aldeia@folha.com",
+      "address": "Aldeia da Folha",
+      "number": "16",
+      "optionalAddress": "País do Fogo",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 2,
+          "menuId": "capp"
+        }
+      ],
+      "id": 4
     }
   ]
 }
